@@ -3,3 +3,5 @@ This repository contains the codes and network files used in the manuscript titl
 The "TopoFiles" folder has multiple network files, out of which the results corresponding to "EMT_RACIPE2_noPeri.topo" (23N90E) and "EMT_RACIPE2.topo" (26N100E) are presented in the manuscript. 
 
 The "Codes" folder contains all the codes required to simulate and analyze the networks. A prerequisite is a system environment variable "BMODEL" that points to the folder containing the simulation code. The simulation code can be downloaded from https://github.com/askhari139/Boolean.jl
+
+In the "Codes/pipeline.R" file, update the folder location, the appropriate number of threads for simulation, and run the whole script. The end result would be all simulation files and the figures in the format that are in the paper. 
