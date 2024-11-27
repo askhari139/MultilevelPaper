@@ -1,4 +1,5 @@
-source("~/MultiLevelPaper/codes/setupScript.R") # Change it to the appropriate folder
+mlDir <- "~/MultiLevelPaper"
+source(paste0(mlDir, "/codes/setupScript.R") # Change it to the appropriate folder
 source(paste0(codeFolder, "/functions.R"))
 source(paste0(codeFolder, "/FigurePlots.r"))
 source(paste0(codeFolder, "/FigureFunctions.r"))
