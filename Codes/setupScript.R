@@ -4,7 +4,7 @@ library(tictoc)
 library(cowplot)
 
 BmodelFolder <- Sys.getenv("BMODEL")
-mlDir <- "/Users/kishorehari/Desktop/Postdoc/MultiLevel/Paper/MultiLevelPaper"
+# mlDir <- "~/MultiLevelPaper" - this should come from the pipline.R script
 
 simFolder <- paste0(mlDir, "/SimData")
 multiLevelSim <- paste0(simFolder, "/MultiLevel")
